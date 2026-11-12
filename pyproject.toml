@@ -1,0 +1,16 @@
+[project]
+name = "uncloud"
+version = "0.1.0"
+description = "Cloud removal on SEN12MS-CR with a radar-guided U-Net"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "numpy",
+    "rasterio",
+    "s2cloudless",
+    "torch",
+    "tqdm",
+    "matplotlib",
+]
+
+[tool.uv]
+package = false
